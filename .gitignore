@@ -1,0 +1,14 @@
+# Safety net: documentation-only public bookmark repository
+# Ignore macOS metadata and ensure code/binaries from the private Controllōrs workspace are never staged accidentally.
+.DS_Store
+*.html
+*.py
+*.js
+*.ts
+*.glb
+*.gltf
+*.mp3
+*.wav
+*.mp4
+*.mov
+__pycache__/
